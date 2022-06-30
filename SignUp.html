@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styls.css">
+</head>
+
+<body>
+    <div class="column-container">
+        <div id="left-col">
+            <div class="title-container">
+                <img src="icon" alt="incon ">
+                <div class="title-text">Title</div>
+            </div>
+            <div class="photo-credit">Photo from <a href="https://www.nawpic.com/palm-tree-17/">PIC</a></div>
+        </div>
+        <div id="right-col">
+            <div class="explanation">
+                <p>Lorem, ipsum dolor.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores omnis eveniet nesciunt, dignissimos cumque, repudiandae quidem cupiditate sit ipsam esse aut ipsa sapiente? Eius cum, quae ad provident omnis maxime.</p>
+
+            </div>
+            <div class="form-container">
+                Let's do this!
+                <form action="http://httpbin.org/post" method="post">
+                    <label for="first-name">First name </label>
+                    <input type="text" name="first-name" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email-input" required>
+                    <label for="phone">Phone number</label>
+                    <input type="number" name="phone" id="phone-input">
+                    <label for="Password">Enter a Password</label>
+                    <input type="password" name="password" id="password">
+                    <label for="confirmation">Confirm your password</label>
+                    <input type="password" name="confirmation" id="confirmation">
+                    <div class="pw-hints">
+                        ul>li
+                    </div>
+                </form>
+            </div>
+            <div class="submit-container">
+                <button type="submit">Submit</button>
+                Already signed up? Then <a href="fake">log in</a> here.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
